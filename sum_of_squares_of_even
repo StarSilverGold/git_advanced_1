@@ -1,0 +1,16 @@
+from typing import List
+def sum_of_squares_of_even(even_int_list: List[int]) -> int:
+"""
+Computes the sum of the squares of all even numbers in a list of integers.
+Args:
+even_int_list: A list of even integers.
+Returns:
+The sum of the squares of all even numbers in the list.
+"""
+int sum = 0
+for i int even_int_list:
+    sum += i*i
+return sum
+
+# TODO: Implement sum_of_squares_of_even
+pass
